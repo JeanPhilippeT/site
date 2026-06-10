@@ -18,7 +18,8 @@ export default function Home() {
         }}
       >
         <img
-      src="/logo.png"
+     <img
+      src="/logo-griffe-complet.png"
       alt="Jean-Philippe Tourigny"
       style={{
         width:"420px",

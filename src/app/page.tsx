@@ -4,7 +4,7 @@ export default function Home() {
       style={{
         minHeight: "100vh",
         background: "#f4ece6",
-        display: "flex",
+        display: "flex", 
         alignItems: "center",
         justifyContent:"center",
         padding:"40px 20px 20px",     

@@ -28,17 +28,17 @@ export default function Home() {
     display:"block"
   }}
 />
-      <h1
+     <h1
   style={{
-    fontSize: "1.15rem",
-    letterSpacing: "3px",
-    fontWeight: 300,
-    marginTop: "10px",
-    marginBottom: "25px",
-    whiteSpace: "nowrap",
+    fontSize: "1.45rem",
+    letterSpacing: "4px",
+    fontWeight: 600,
+    margin: "20px 0 32px 0",
+    fontFamily: "Georgia, 'Times New Roman', serif",
+    fontStyle: "italic",
   }}
 >
-  BIENTOT NOUVEAU SITE EN LIGNE
+  COMING SOON
 </h1>
 <div
   style={{

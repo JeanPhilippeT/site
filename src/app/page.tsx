@@ -51,7 +51,7 @@ export default function Home() {
           }}
         >
           BIENTÔT NOTRE
-          <br m
+          <br />
           NOUVEAU SITE EN LIGNE
         </h1>
 

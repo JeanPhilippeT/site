@@ -17,17 +17,17 @@ export default function Home() {
           width: "100%",
         }}
       >
-     <img
-      src="/logo-griffe-complet.png"     
-       alt="Jean-Philippe Tourigny"
-       style={{
-      width:"450px",
-      maxWidth:"60%",
-      height:"auto",
-      margin:"0 auto 20px auto",
-         display:"block"
-      }}
-    />
+    <img
+  src="/logo-griffe-complet.png"
+  alt="Jean-Philippe Tourigny"
+  style={{
+    width:"320px",
+    maxWidth:"80%",
+    height:"auto",
+    margin:"0 auto 20px auto",
+    display:"block"
+  }}
+/>
       <h1
   style={{
     fontSize: "1.15rem",

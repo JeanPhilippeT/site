@@ -102,15 +102,7 @@ export default function Home() {
 </a>
 
 </div>
-        <p
-          style={{
-            letterSpacing: "4px",
-            color: "#555",
-          }}
-        >
-          MARRAKECH — PARIS
-        </p>
-      </div>
+       
     </main>
   );
 }

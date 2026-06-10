@@ -6,7 +6,7 @@ export default function Home() {
         background: "#f4ece6",
         display: "flex",
         alignItems: "center",
-       justifyContent:"flex-start",        
+        justifyContent:"center",
         padding:"20px 20px 40px",     
       }}
     >

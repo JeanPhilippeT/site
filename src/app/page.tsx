@@ -18,16 +18,16 @@ export default function Home() {
         }}
       >
         <img
-          src="/logo.png"
-          alt="JeanPhilippe Tourigny"
-          style={{
-            width: "420px",
-            maxWidth: "70%",
-            height: "auto",
-            margin: "0 auto 20px auto",
-            display: "block",
-          }}
-        />
+      src="/logo.png"
+      alt="Jean-Philippe Tourigny"
+      style={{
+        width:"420px",
+        maxWidth:"70%",
+        height:"auto",
+        margin:"40px auto 20px auto",
+        display:"block"
+      }}
+    />
           <p
           style={{
             color: "#b89a5a",

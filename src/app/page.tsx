@@ -24,8 +24,8 @@ export default function Home() {
       width:"450px",
       maxWidth:"60%",
       height:"auto",
-      margin:"0 auto 40px auto",
-      display:"block"
+      margin:"0 auto 20px auto",
+         display:"block"
       }}
     />
       <h1

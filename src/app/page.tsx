@@ -17,7 +17,6 @@ export default function Home() {
           width: "100%",
         }}
       >
-        <img
      <img
       src="/logo-griffe-complet.png"
       alt="Jean-Philippe Tourigny"

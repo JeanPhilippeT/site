@@ -7,7 +7,7 @@ export default function Home() {
         display: "flex",
         alignItems: "center",
         justifyContent:"center",
-        padding:"20px 20px 20px",     
+        padding:"40px 20px 20px",     
       }}
     >
       <div

@@ -102,8 +102,6 @@ export default function Home() {
 </a>
 
 </div>
-      
-
         <p
           style={{
             letterSpacing: "4px",

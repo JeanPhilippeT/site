@@ -38,7 +38,7 @@ export default function Home() {
     whiteSpace: "nowrap",
   }}
 >
-  BIENTÔT NOTRE NOUVEAU SITE EN LIGNE
+  BIENTOT NOUVEAU SITE EN LIGNE
 </h1>
 <div
   style={{

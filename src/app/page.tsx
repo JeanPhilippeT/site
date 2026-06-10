@@ -77,9 +77,8 @@ export default function Home() {
   Instagram
 </a>
 
-</div>
-
-      </div>       
+        </div>
+      </div>
     </main>
   );
 }

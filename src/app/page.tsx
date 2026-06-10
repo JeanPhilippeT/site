@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main
       style={{
-        minHeight: "100vh",
+        minHeight: "100vh", 
         background: "#f4ece6",
         display: "flex", 
         alignItems: "center",

@@ -22,7 +22,7 @@ export default function Home() {
        alt="Jean-Philippe Tourigny"
        style={{
       width:"450px",
-      maxWidth:"90%",
+      maxWidth:"60%",
       height:"auto",
       margin:"0 auto 40px auto",
       display:"block"

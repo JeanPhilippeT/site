@@ -21,7 +21,7 @@ export default function Home() {
       src="/logo-griffe-complet.png"     
        alt="Jean-Philippe Tourigny"
        style={{
-      width:"650px",
+      width:"450px",
       maxWidth:"90%",
       height:"auto",
       margin:"0 auto 40px auto",

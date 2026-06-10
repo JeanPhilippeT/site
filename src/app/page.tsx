@@ -29,28 +29,17 @@ export default function Home() {
       }}
     />
       <h1
-        style={{
-          color: "#000",
-          fontSize: "2rem",
-          letterSpacing: "4px",
-          fontWeight: 300,
-          marginBottom: "20px",
-        }}
-      >
-        BIENTÔT NOTRE
-        <br />
-        NOUVEAU SITE EN LIGNE
-      </h1>
-
-        <p
-          style={{
-            letterSpacing: "2px",
-            marginBottom: "40px",
-            color: "#666",
-          }}
-        >
-          POUR TOUTE DEMANDE
-        </p>
+  style={{
+    fontSize: "1.15rem",
+    letterSpacing: "3px",
+    fontWeight: 300,
+    marginTop: "10px",
+    marginBottom: "25px",
+    whiteSpace: "nowrap",
+  }}
+>
+  BIENTÔT NOTRE NOUVEAU SITE EN LIGNE
+</h1>
 <div
   style={{
     display: "flex",

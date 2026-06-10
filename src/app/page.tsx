@@ -77,10 +77,12 @@ export default function Home() {
   href="https://wa.me/212617682235"
   target="_blank"
   rel="noopener noreferrer"
-  style={{
-    color:"#000",
-    textDecoration:"none"
-  }}
+ style={{
+  color:"#000",
+  textDecoration:"underline",
+  textUnderlineOffset:"4px",
+  cursor:"pointer"
+}}
 >
   WhatsApp
 </a>
@@ -90,10 +92,10 @@ export default function Home() {
   target="_blank"
   rel="noopener noreferrer"
   style={{
-    color:"#000",
-    textDecoration:"none",
-    cursor:"pointer",
-    transition:"0.2s"
+  color:"#000",
+  textDecoration:"underline",
+  textUnderlineOffset:"4px",
+  cursor:"pointer"
   }}
 >
   Instagram

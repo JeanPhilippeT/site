@@ -18,7 +18,7 @@ export default function Home() {
         }}
       >
         <img
-          src="/logo.webp"
+          src="/logo.png"
           alt="JeanPhilippe Tourigny"
           style={{
             width: "220px",

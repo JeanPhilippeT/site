@@ -73,32 +73,31 @@ export default function Home() {
     fontSize: "1.4rem",
   }}
 >
-
+<a
+  href="https://wa.me/212617682235"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    color:"#000",
+    textDecoration:"none"
+  }}
+>
+  WhatsApp
+</a>
+ 
   <a
-    href="https://wa.me/212617682235"
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{
-      color:"#000",
-      textDecoration:"none"
-    }}
-    title="WhatsApp"
-  >
-    📱
-  </a>
-
-  <a
-    href="https://instagram.com/jeanphiliptourigny"
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{
-      color:"#000",
-      textDecoration:"none"
-    }}
-    title="Instagram"
-  >
-    📷
-  </a>
+  href="https://instagram.com/jeanphiliptourigny"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    color:"#000",
+    textDecoration:"none",
+    cursor:"pointer",
+    transition:"0.2s"
+  }}
+>
+  Instagram
+</a>
 
 </div>
       

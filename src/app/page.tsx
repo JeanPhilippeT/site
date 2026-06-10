@@ -28,8 +28,8 @@ export default function Home() {
       display:"block"
       }}
     />
-          <p
-          style={{
+      <h1          
+        style={{
             color: "#b89a5a",
             fontSize: "1.6rem",
             fontStyle: "italic",

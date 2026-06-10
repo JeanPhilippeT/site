@@ -34,7 +34,7 @@ export default function Home() {
             fontSize: "1.6rem",
             fontStyle: "italic",
             lineHeight: "1.5",
-            marginBottom: "30px",
+            marginBottom: "10px",
           }}
         >
           Entre Marrakech et Paris,

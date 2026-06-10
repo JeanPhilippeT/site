@@ -75,29 +75,29 @@ export default function Home() {
             fontSize: "1rem",
           }}
         >
-          <a
+         <a
             href="https://wa.me/212617682235"
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              color: "#000",
-              textDecoration: "none",
+            color:"#000",
+            textDecoration:"none"
             }}
-          >
+            >
             WhatsApp
-          </a>
-
-          <a
-            href="https://instagram.com/jeanphiliptourigny"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              color: "#000",
-              textDecoration: "none",
-            }}
-          >
-            Instagram
-          </a>
+          </a> 
+            <a
+              href="https://instagram.com/jeanphiliptourigny"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color:"#000",
+                textDecoration:"none"
+              }}
+            >
+              Instagram
+            </a>
+                     
 
         </div>
 

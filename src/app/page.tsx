@@ -21,10 +21,10 @@ export default function Home() {
           src="/logo.png"
           alt="JeanPhilippe Tourigny"
           style={{
-            width: "220px",
+            width: "420px",
             maxWidth: "70%",
             height: "auto",
-            marginBottom: "40px",
+            margin: "0 auto 20px auto",
           }}
         />
 

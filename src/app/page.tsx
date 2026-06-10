@@ -21,12 +21,12 @@ export default function Home() {
      <img
       src="/logo-griffe-complet.png"
       alt="Jean-Philippe Tourigny"
-      style={{
-        width:"420px",
-        maxWidth:"70%",
-        height:"auto",
-        margin:"40px auto 20px auto",
-        display:"block"
+       style={{
+      width:"650px",
+      maxWidth:"90%",
+      height:"auto",
+      margin:"0 auto 40px auto",
+      display:"block"
       }}
     />
           <p
@@ -37,20 +37,7 @@ export default function Home() {
             lineHeight: "1.5",
             marginBottom: "10px",
           }}
-        >
-          Entre Marrakech et Paris,
-          <br />
-          je couds un langage.
-        </p>
-
-        <h1
-          style={{
-            fontSize: "2rem",
-            letterSpacing: "4px",
-            fontWeight: 300,
-            marginBottom: "20px",
-          }}
-        >
+       
           BIENTÔT NOTRE
           <br />
           NOUVEAU SITE EN LIGNE

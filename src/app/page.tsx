@@ -28,8 +28,7 @@ export default function Home() {
             display: "block",
           }}
         />
-
-        <p
+          <p
           style={{
             color: "#b89a5a",
             fontSize: "1.6rem",

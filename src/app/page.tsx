@@ -100,17 +100,7 @@ export default function Home() {
             Instagram
           </a>
 
-          <a
-            href="https://pinterest.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              color: "#000",
-              textDecoration: "none",
-            }}
-          >
-            Pinterest
-          </a>
+        
         </div>
 
         <p

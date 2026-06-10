@@ -25,6 +25,7 @@ export default function Home() {
             maxWidth: "70%",
             height: "auto",
             margin: "0 auto 20px auto",
+            display: "block",
           }}
         />
 

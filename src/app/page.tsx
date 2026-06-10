@@ -6,8 +6,8 @@ export default function Home() {
         background: "#f4ece6",
         display: "flex",
         alignItems: "center",
-        justifyContent: "center",
-        padding: "40px 20px",
+       justifyContent:"flex-start",        
+        padding:"20px 20px 40px",     
       }}
     >
       <div

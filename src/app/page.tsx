@@ -85,7 +85,18 @@ export default function Home() {
             }}
             >
             WhatsApp
-          </a> 
+          </a>
+          <a
+            href="https://instagram.com/jeanphiliptourigny"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+            color:"#000",
+            textDecoration:"none"
+            }}
+            >
+            Instagram
+          </a>
             <a
               href="https://instagram.com/jeanphiliptourigny"
               target="_blank"

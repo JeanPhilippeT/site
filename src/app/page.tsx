@@ -64,53 +64,44 @@ export default function Home() {
         >
           POUR TOUTE DEMANDE
         </p>
+<div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: "35px",
+    marginBottom: "50px",
+    fontSize: "1.4rem",
+  }}
+>
 
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "center",
-            gap: "25px",
-            marginBottom: "50px",
-            fontSize: "1rem",
-          }}
-        >
-         <a
-            href="https://wa.me/212617682235"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-            color:"#000",
-            textDecoration:"none"
-            }}
-            >
-            WhatsApp
-          </a>
-          <a
-            href="https://instagram.com/jeanphiliptourigny"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-            color:"#000",
-            textDecoration:"none"
-            }}
-            >
-            Instagram
-          </a>
-            <a
-              href="https://instagram.com/jeanphiliptourigny"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                color:"#000",
-                textDecoration:"none"
-              }}
-            >
-              Instagram
-            </a>
-                     
+  <a
+    href="https://wa.me/212617682235"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      color:"#000",
+      textDecoration:"none"
+    }}
+    title="WhatsApp"
+  >
+    📱
+  </a>
 
-        </div>
+  <a
+    href="https://instagram.com/jeanphiliptourigny"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      color:"#000",
+      textDecoration:"none"
+    }}
+    title="Instagram"
+  >
+    📷
+  </a>
+
+</div>
+      
 
         <p
           style={{

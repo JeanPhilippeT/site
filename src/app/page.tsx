@@ -28,19 +28,19 @@ export default function Home() {
       display:"block"
       }}
     />
-      <h1          
+      <h1
         style={{
-            color: "#b89a5a",
-            fontSize: "1.6rem",
-            fontStyle: "italic",
-            lineHeight: "1.5",
-            marginBottom: "10px",
-          }}
-       
-          BIENTÔT NOTRE
-          <br />
-          NOUVEAU SITE EN LIGNE
-        </h1>
+          color: "#000",
+          fontSize: "2rem",
+          letterSpacing: "4px",
+          fontWeight: 300,
+          marginBottom: "20px",
+        }}
+      >
+        BIENTÔT NOTRE
+        <br />
+        NOUVEAU SITE EN LIGNE
+      </h1>
 
         <p
           style={{

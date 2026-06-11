@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'JeanPhilippe Tourigny | Couture entre Paris et Marrakech',
+  title: 'JeanPhilippe Tourigny',
   description:
     'Couturier français installé entre Marrakech et Paris. Collections diffusion, pièces couture, caftans et créations sur mesure.',
   keywords: [

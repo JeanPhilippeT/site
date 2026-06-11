@@ -6,11 +6,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'JeanPhilippe Tourigny',
-  description: 'Couturier Français installé entre Marrakech et Paris. Collections diffusion, creations Couture, caftans,
-   gandouras et creations sur-mesure',
-  keywords: 'couture, couture artisanale, fashion, mode, luxury, atelier, fusion, Marrakech, Paris, Caftans, caftan marocain,
-  gandouras, robes du soir, robes cocktail, tenues d'exceptions, collections diffusion, prêt-a-porter, 
-  couturier, designer, JeanPhilippe Tourigny, Tourigny Couture',
+  description: 'Couturier Français installé entre Marrakech et Paris. Collections diffusion, creations Couture, caftans, gandouras et creations sur-mesure.',
+  keywords: 'couture, couture artisanale, fashion, mode, luxury, atelier, fusion, Marrakech, Paris, Caftans, caftan marocain, gandouras, robes du soir, robes cocktail, tenues d'exceptions, collections diffusion, prêt-a-porter, couturier, designer, JeanPhilippe Tourigny, Tourigny Couture.',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',

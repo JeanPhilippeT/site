@@ -4,14 +4,26 @@ import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: "JeanPhilippe Tourigny | Couture entre Paris Marrakech",
+export const metadata: Metadata = {
+  title: 'JeanPhilippe Tourigny | Couture entre Paris et Marrakech',
   description:
-    "Couturier français installé entre Marrakech et Paris. Collections diffusion, pièces couture, caftans et créations sur mesure.",
-  keywords:
-    "JeanPhilippe Tourigny, Jean-Philippe Tourigny, couture, couturier français, Marrakech, Paris, caftan contemporain, gandoura contemporaine, artisanat marocain, création sur mesure",
+    'Couturier français installé entre Marrakech et Paris. Collections diffusion, pièces couture, caftans et créations sur mesure.',
+  keywords: [
+    'JeanPhilippe Tourigny',
+    'Jean-Philippe Tourigny',
+    'couture',
+    'couturier français',
+    'Marrakech',
+    'Paris',
+    'caftan marocain',
+    'caftan contemporain',
+    'gandoura contemporaine',
+    'artisanat marocain',
+    'création sur mesure',
+  ],
 }
-  export default function RootLayout({
+
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode

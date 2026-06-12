@@ -39,6 +39,7 @@ export default function PreviewPage() {
     <Linkedin size={16} strokeWidth={1.25} />
   </a>
         </div>
+          </div>          
       </header>
 
       {/* HERO */}

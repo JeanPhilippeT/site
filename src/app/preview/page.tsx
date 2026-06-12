@@ -28,6 +28,7 @@ export default function PreviewPage() {
 
 <div className="flex items-center gap-6">
   <a href="https://instagram.com/jeanphiliptourigny" target="_blank" rel="noopener noreferrer">
+  </a>
     <Instagram size={16} strokeWidth={1.25} />
   </a>
 

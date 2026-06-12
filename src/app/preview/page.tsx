@@ -14,9 +14,8 @@ const heroSlides = [
 {
 image: "/images/hero-image.webp"
 ,
-title: "JEAN PHILIPPE TOURIGNY"
-,
-subtitle: "Haute Couture Parisienne"
+title: "JeanPhilippe TOURIGNY",
+subtitle: "Marrakech-Paris",
 },
 {
 image: "/images/hero-image.webp"

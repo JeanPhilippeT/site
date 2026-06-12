@@ -72,7 +72,7 @@ export default function PreviewPage() {
           </div>
 
           {/* IMAGE */}
-         <div className="relative h-[820px] w-[60%] -mt-30">
+         <div className="relative h-[820px] w-[60%] -mt-56">
             <Image
               src="/images/image-caftan-noir-page1.png"
               alt="Création JeanPhilippe Tourigny entre couture parisienne et artisanat marocain"

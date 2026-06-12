@@ -313,9 +313,8 @@ LIRE TOUS LES ARTICLES
 <Mail className="w-6 h-6 mt-1 text-gray-400" />
 <div>
 <h3 className="text-xl font-light mb-2">INSTAGRAM</h3>
-<a href="https://instagram.com/jeanphiliptourigny" target="
-blank"
-_
+<a href="https://instagram.com/jeanphiliptourigny" 
+  target="_blank"
 rel="noopener noreferrer" className="text-gray-300 font-light hover:text-white
 transition-colors">
 @jeanphiliptourigny
@@ -326,15 +325,15 @@ transition-colors">
 <div className="mt-12">
 <h3 className="text-xl font-light mb-6">NOUS CONTACTER</h3>
 <div className="flex space-x-6">
-<a href="https://instagram.com/jeanphiliptourigny" target="
-_
-blank" rel="noopener
+<a href="https://instagram.com/jeanphiliptourigny" 
+  target="_blank" 
+  rel="noopener
 noreferrer" className="text-gray-400 hover:text-white transition-colors">
 <Instagram size={24} />
 </a>
-<a href="https://wa.me/33681613299" target="
-_
-blank" rel="noopener noreferrer"
+<a href="https://wa.me/33681613299" 
+target="_blank" 
+rel="noopener noreferrer"
 className="text-gray-400 hover:text-white transition-colors">
 <Phone size={24} />
 </a>
@@ -348,9 +347,7 @@ className="text-gray-400 hover:text-white transition-colors">
 <h4 className="text-lg font-light mb-4">WhatsApp</h4>
 <a
 href="https://wa.me/33681613299"
-target="
-blank"
-_
+target="_blank"
 rel="noopener noreferrer"
 className="inline-block w-full py-4 bg-green-600 text-white font-light
 tracking-wide hover:bg-green-700 transition-colors"
@@ -362,9 +359,7 @@ CONTACTER PAR WHATSAPP
 <h4 className="text-lg font-light mb-4">Instagram</h4>
 <a
 href="https://instagram.com/jeanphiliptourigny"
-target="
-blank"
-_
+target="_blank"
 rel="noopener noreferrer"
 className="inline-block w-full py-4 bg-gradient-to-r from-purple-500
 to-pink-500 text-white font-light tracking-wide hover:from-purple-600 hover:to-pink-600

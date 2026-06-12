@@ -39,7 +39,6 @@ setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
 const prevSlide = () => {
 setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length);
 };
-useEffect(() => {
   useEffect(() => {
     const timer = setInterval(nextSlide, 5000);
     return () => {

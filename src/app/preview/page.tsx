@@ -17,12 +17,13 @@ export default function PreviewPage() {
 </div>
 
          <nav className="flex gap-12 text-[11px] uppercase tracking-[0.22em]">
-            <a href="#">Accueil</a>
-            <a href="#">Collections</a>
-            <a href="#">Sur-mesure</a>
-            <a href="#">La Maison</a>
-            <a href="#">Contact</a>
-          </nav>
+  <a href="#">Accueil</a>
+  <a href="#">Collections</a>
+  <a href="#">Sur-mesure</a>
+  <a href="#">La Maison</a>
+  <a href="#">Journal</a>
+  <a href="#">Contact</a>
+</nav>
 
           <div className="flex gap-8 text-sm uppercase tracking-[0.25em]">
             <a href="#">IG</a>

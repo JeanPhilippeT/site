@@ -16,7 +16,7 @@ export default function PreviewPage() {
   />
 </div>
 
-          <nav className="flex gap-14 text-sm uppercase tracking-[0.35em]">
+         <nav className="flex gap-12 text-[11px] uppercase tracking-[0.22em]">
             <a href="#">Accueil</a>
             <a href="#">Collections</a>
             <a href="#">Sur-mesure</a>

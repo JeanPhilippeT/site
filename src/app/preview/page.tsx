@@ -40,10 +40,14 @@ const prevSlide = () => {
 setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length);
 };
 useEffect(() => {
-const timer = setInterval(nextSlide, 5000);
-return () => clearInterval(timer);
-}, []);
-return (
+  useEffect(() => {
+    const timer = setInterval(nextSlide, 5000);
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
+
+  return (
 <div className="min-h-screen bg-black text-white">
 <nav className="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-sm">
 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

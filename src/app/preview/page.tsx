@@ -27,22 +27,32 @@ export default function PreviewPage() {
 </nav>
 
 <div className="flex items-center gap-6">
- <a
-  href="https://www.instagram.com/jeanphiliptourigny"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Instagram size={16} strokeWidth={1.25} />
-</a>
 
-  <a href="https://wa.me/212617682235" target="_blank" rel="noopener noreferrer">
+  <a
+    href="https://www.instagram.com/jeanphiliptourigny"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Instagram size={16} strokeWidth={1.25} />
+  </a>
+
+  <a
+    href="https://wa.me/212617682235"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <MessageCircle size={16} strokeWidth={1.25} />
   </a>
 
-  <a href="#" target="_blank" rel="noopener noreferrer">
+  <a
+    href="https://www.linkedin.com/in/jeanphilippetourigny/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <Linkedin size={16} strokeWidth={1.25} />
   </a>
-        </div>
+
+</div>
           </div>          
       </header>
 

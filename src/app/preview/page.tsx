@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Instagram, Linkedin, MessageCircle } from "lucide-react";
 
 export default function PreviewPage() {
   return (

@@ -72,11 +72,11 @@ export default function PreviewPage() {
               langage.
             </h1>
 
-            <p className="mt-12 text-2xl leading-relaxed">
-              Couture parisienne et artisanat marocain.
-              <br />
-              Pièces en série limitée et créations sur mesure.
-            </p>
+            <p className="mt-10 text-base leading-relaxed">
+  Couture parisienne et artisanat marocain.
+  <br />
+  Pièces en série limitée et créations sur mesure.
+</p>
 
             <div className="mt-14 flex gap-6">
               <a

@@ -33,11 +33,11 @@ export default function PreviewPage() {
       </header>
 
       {/* HERO */}
-      <section className="min-h-screen pt-28">
-        <div className="mx-auto flex min-h-[calc(100vh-7rem)] max-w-[1700px] items-center justify-between px-20">
-          {/* TEXTE */}
-          <div className="w-[38%]">
-
+      <section className="min-h-screen pt-12">
+      <div className="mx-auto flex max-w-[1700px] items-start justify-between px-20 pt-20">
+        
+        {/* TEXTE */}
+        <div className="w-[38%] pt-2">
             <h1 className="font-serif text-[68px] leading-[0.95] tracking-tight">
               Entre Marrakech
               <br />
@@ -72,7 +72,7 @@ export default function PreviewPage() {
           </div>
 
           {/* IMAGE */}
-          <div className="relative h-[820px] w-[60%]">
+         <div className="relative h-[820px] w-[60%] -mt-20">
             <Image
               src="/images/image-caftan-noir-page1.png"
               alt="Création JeanPhilippe Tourigny entre couture parisienne et artisanat marocain"

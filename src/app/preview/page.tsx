@@ -5,7 +5,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
         <a href="/preview" className="block">
         <img 
-          src="/images/logo-header.png"
+          src="/images/logo-fond-transparent.png"
           alt="JeanPhilippe Tourigny"
           className="h-12 w-auto object-contain"
           />

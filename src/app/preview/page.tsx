@@ -27,10 +27,13 @@ export default function PreviewPage() {
 </nav>
 
 <div className="flex items-center gap-6">
-  <a href="https://instagram.com/jeanphiliptourigny" target="_blank" rel="noopener noreferrer">
-  </a>
-    <Instagram size={16} strokeWidth={1.25} />
-  </a>
+ <a
+  href="https://www.instagram.com/jeanphiliptourigny"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Instagram size={16} strokeWidth={1.25} />
+</a>
 
   <a href="https://wa.me/212617682235" target="_blank" rel="noopener noreferrer">
     <MessageCircle size={16} strokeWidth={1.25} />

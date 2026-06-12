@@ -1,3 +1,7 @@
+import Image from "next/image";
+
+export default function PreviewPage() {
+  return (
 <section className="min-h-screen bg-[#EEE7DF] pt-32">
   <div className="max-w-[1700px] mx-auto px-20">
 
@@ -59,4 +63,5 @@
 
   </div>
 </section>
+  );
 }

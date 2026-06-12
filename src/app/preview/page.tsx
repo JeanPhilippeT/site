@@ -36,12 +36,12 @@ export default function PreviewPage() {
       <section className="min-h-screen pt-28">
         <div className="mx-auto flex min-h-[calc(100vh-7rem)] max-w-[1700px] items-center justify-between px-20">
           {/* TEXTE */}
-          <div className="w-[45%]">
+          <div className="w-[38%]">
             <div className="mb-8 text-7xl font-bold tracking-tight">
               TC
             </div>
 
-            <h1 className="font-serif text-[92px] leading-[0.95] tracking-tight">
+            <h1 className="font-serif text-[68px] leading-[0.95] tracking-tight">
               Entre Marrakech
               <br />
               et Paris,
@@ -75,7 +75,7 @@ export default function PreviewPage() {
           </div>
 
           {/* IMAGE */}
-          <div className="relative h-[720px] w-[52%]">
+          <div className="relative h-[820px] w-[60%]">
             <Image
               src="/images/image-caftan-noir-page1.png"
               alt="Création JeanPhilippe Tourigny entre couture parisienne et artisanat marocain"

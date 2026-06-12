@@ -37,9 +37,6 @@ export default function PreviewPage() {
         <div className="mx-auto flex min-h-[calc(100vh-7rem)] max-w-[1700px] items-center justify-between px-20">
           {/* TEXTE */}
           <div className="w-[38%]">
-            <div className="mb-8 text-7xl font-bold tracking-tight">
-              TC
-            </div>
 
             <h1 className="font-serif text-[68px] leading-[0.95] tracking-tight">
               Entre Marrakech

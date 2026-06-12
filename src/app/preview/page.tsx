@@ -2,10 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, Instagram, Mail, Phone, MapPin } from 'lucide-react';
-import { galleries } from '
-../data/collections';
-import { getRecentBlogPosts } from '
-../data/blog';
+import { galleries } from '../../data/collections';
+import { getRecentBlogPosts } from '../../data/blog';
 const FashionWebsite = () => {
 const [currentSlide, setCurrentSlide] = useState(0);
 const [isLoaded, setIsLoaded] = useState(false);

@@ -3,10 +3,13 @@ export default function Home() {
     <main className="min-h-screen bg-[#eee7df] text-black">
       <header className="fixed top-0 left-0 z-50 w-full bg-[#eee7df]/90 backdrop-blur-sm">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <div className="leading-none">
-            <div className="font-serif text-sm italic">JeanPhilippe</div>
-            <div className="text-sm font-bold tracking-widest">TOURIGNY</div>
-          </div>
+        <a href="/preview" className="block">
+        <img 
+          src="/images/logo-header.png"
+          alt="JeanPhilippe Tourigny"
+          className="h-12 w-auto object-contain"
+          />
+          </a>
 
           <nav className="hidden items-center gap-8 text-[10px] uppercase tracking-[0.25em] md:flex">
             <a href="/" className="border-b border-black pb-1">Accueil</a>

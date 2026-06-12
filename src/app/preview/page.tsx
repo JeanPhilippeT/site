@@ -62,7 +62,7 @@ export default function PreviewPage() {
         
         {/* TEXTE */}
         <div className="w-[38%] pt-2">
-            <h1 className="font-serif text-[68px] leading-[0.95] tracking-tight">
+           <h1 className="font-serif text-[52px] leading-[0.95] tracking-tight">
               Entre Marrakech
               <br />
               et Paris,

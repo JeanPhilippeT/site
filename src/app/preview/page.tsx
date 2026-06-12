@@ -6,11 +6,15 @@ export default function PreviewPage() {
       {/* HEADER */}
       <header className="fixed top-0 left-0 z-50 w-full bg-[#EEE7DF]/90 backdrop-blur-sm">
         <div className="mx-auto flex h-28 max-w-[1700px] items-center justify-between px-20">
-          <div className="text-sm font-bold leading-tight">
-            JeanPhilippe
-            <br />
-            TOURIGNY
-          </div>
+          <div className="relative h-16 w-28">
+  <Image
+    src="/images/logo-header-transparent.png"
+    alt="JeanPhilippe Tourigny"
+    fill
+    priority
+    className="object-contain object-left"
+  />
+</div>
 
           <nav className="flex gap-14 text-sm uppercase tracking-[0.35em]">
             <a href="#">Accueil</a>

@@ -98,7 +98,7 @@ export default function PreviewPage() {
           {/* IMAGE */}
           <div className="relative h-[820px] w-[60%] -mt-24">    
             <Image
-              src="/images/image-caftan-noir-page1.png"
+                src="/images/accueil.png"             
               alt="Création JeanPhilippe Tourigny caftan paillettes noire"
               fill
               priority

@@ -57,7 +57,7 @@ export default function PreviewPage() {
       </header>
 
       {/* PAGE D'ACCUEIL */}
-      <section className="mx-auto flex min-h-[85vh] max-w-[1700px] flex-col items-center justify-center px-6 pb-12 pt-12 lg:min-h-screen lg:flex-row lg:justify-between lg:px-20 lg:pt-32">
+      <section className="mx-auto flex min-h-[85vh] max-w-[1700px] flex-col items-center justify-start lg:justify-center px-6 pb-12 pt-4 lg:pt-12 lg:min-h-screen lg:flex-row lg:justify-between lg:px-20 lg:pt-32">
         
         {/* TEXTE */}
         <div className="z-10 flex w-full flex-col items-center lg:w-[42%] lg:-translate-y-6">
@@ -76,7 +76,7 @@ export default function PreviewPage() {
           </h1>
 
           {/* SILHOUETTE SUR TÉLÉPHONE */}
-         <div className="relative mt-8 mb-0 h-[255px] w-full max-w-[430px] sm:h-[345px] lg:hidden -translate-y-[45px]">
+         <div className="relative mt-8 mb-0 h-[220px] w-full max-w-[430px] sm:h-[345px] lg:hidden -translate-y-[45px]">
             <Image
               src="/images/image-caftan-noir-page1.png"
               alt="Caftan noir JeanPhilippe Tourigny"

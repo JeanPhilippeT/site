@@ -76,7 +76,7 @@ export default function PreviewPage() {
           </h1>
 
           {/* SILHOUETTE SUR TÉLÉPHONE */}
-          <div className="relative my-8 h-[300px] w-full max-w-[430px] sm:h-[390px] lg:hidden">
+          <div className="relative my-8 h-[300px] w-full max-w-[430px] sm:h-[390px] lg:hidden -translate-y-[75px]">
             <Image
               src="/images/image-caftan-noir-page1.png"
               alt="Caftan noir JeanPhilippe Tourigny"

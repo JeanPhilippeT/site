@@ -90,7 +90,7 @@ export default function PreviewPage() {
           {/* LIEN D'ENTRÉE */}
           <a
             href="/preview#maison"
-            className="mt-15 border-b border-black pb-2 text-xs uppercase tracking-[0.22em] transition-opacity hover:opacity-60 lg:mt-16"
+            className="relative -top-[50px] border-b border-black pb-2 text-xs uppercase tracking-[0.22em] transition-opacity hover:opacity-60 lg:mt-16"
           >
             Découvrir la maison →
           </a>

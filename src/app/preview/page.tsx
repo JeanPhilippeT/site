@@ -76,7 +76,7 @@ export default function PreviewPage() {
           </h1>
 
           {/* SILHOUETTE SUR TÉLÉPHONE */}
-         <div className="relative my-8 h-[300px] w-full max-w-[430px] sm:h-[390px] lg:hidden -translate-y-[45px]">
+         <div className="relative mt-8 mb-0 h-[255px] w-full max-w-[430px] sm:h-[345px] lg:hidden -translate-y-[45px]">
             <Image
               src="/images/image-caftan-noir-page1.png"
               alt="Caftan noir JeanPhilippe Tourigny"
@@ -90,7 +90,7 @@ export default function PreviewPage() {
           {/* LIEN D'ENTRÉE */}
           <a
             href="/preview#maison"
-            className="relative -top-[50px] border-b border-black pb-2 text-xs uppercase tracking-[0.22em] transition-opacity hover:opacity-60 lg:mt-16"
+            className="relative -top-[0px] border-b border-black pb-2 text-xs uppercase tracking-[0.22em] transition-opacity hover:opacity-60 lg:mt-16"
           >
             Découvrir la maison →
           </a>

@@ -60,7 +60,7 @@ export default function PreviewPage() {
       <section className="mx-auto flex min-h-[85vh] max-w-[1700px] flex-col items-center justify-center px-6 pb-12 pt-12 lg:min-h-screen lg:flex-row lg:justify-between lg:px-20 lg:pt-32">
         
         {/* TEXTE */}
-        <div className="z-10 flex w-full flex-col items-center lg:w-[42%]">
+        <div className="z-10 flex w-full flex-col items-center lg:w-[42%] lg:-translate-y-6">
           <h1 className="text-center font-serif text-[clamp(2.7rem,10vw,4rem)] leading-[0.98] tracking-tight lg:text-[clamp(3rem,4vw,4.4rem)]">
             Entre
             <br />

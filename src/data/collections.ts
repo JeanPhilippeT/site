@@ -94,7 +94,7 @@ const coutureSubCollections: SubCollection[] = [
 export const galleries: Gallery[] = [
   {
     id: 'diffusion',
-    name: 'DIFFUSION Gallery',
+    name: 'SIGNATURES',
     slug: 'diffusion',
     description: 'Une collection accessible qui démocratise l\'excellence artisanale, offrant l\'élégance JPT à un public plus large.',
     coverImage: '/images/galleries/diffusion/black-swan/caftan-couture-sequins-black-swan-5.webp',
@@ -102,7 +102,7 @@ export const galleries: Gallery[] = [
   },
   {
     id: 'couture',
-    name: 'COUTURE Gallery',
+    name: 'COUTURE',
     slug: 'couture',
     description: 'L\'excellence de la haute couture parisienne, où chaque pièce est une œuvre d\'art créée sur mesure.',
     coverImage: '/images/galleries/couture/queen-of-satin/caftan-couture-night-blue-satin-silk-handmade-swarovski-embroidery-1.webp',

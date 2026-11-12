@@ -77,12 +77,14 @@ export default function AllGalleriesPage() {
 <section className="mx-auto max-w-[1700px] px-6 pb-8 pt-6 lg:px-12 lg:pt-8">        
 <h1 className="mb-8 text-center font-serif text-5xl font-normal tracking-tight md:text-7xl">          Collections
         </h1>
-<div className="mx-auto grid max-w-[1350px] grid-cols-1 gap-8 md:grid-cols-3 lg:gap-10">          {sortedGalleries.map((gallery) => (
+<div className="mx-auto grid w-full max-w-[1150px] grid-cols-1 gap-8 md:grid-cols-3 lg:gap-10">
+  {sortedGalleries.map((gallery) => (
             <Link
               key={gallery.id}
               href={`/galleries/${gallery.slug}`}
               className="group block"
-            ><div className="pb-6 text-center">
+            >
+              <div className="pb-6 text-center">
   <h2 className="text-lg font-light uppercase tracking-[0.22em] md:text-xl">
     {gallery.name}
   </h2>

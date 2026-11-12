@@ -97,7 +97,7 @@ export default function AllGalleriesPage() {
                     alt={gallery.name}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
-            className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+              className={gallery.slug === "diffusion" ? "object-contain" : "object-cover"}
                   />
                 )}
               </div>

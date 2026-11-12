@@ -102,9 +102,9 @@ export const galleries: Gallery[] = [
   subCollections: []
   },
   {
-    id: 'diffusion',
+    id: 'signatures',
     name: 'SIGNATURES',
-    slug: 'diffusion',
+    slug: 'signatures',
     description: 'Une collection accessible qui démocratise l\'excellence artisanale, offrant l\'élégance JPT à un public plus large.',
     coverImage: '/images/galleries/diffusion/black-swan/caftan-couture-sequins-black-swan-5.webp',
     subCollections: diffusionSubCollections

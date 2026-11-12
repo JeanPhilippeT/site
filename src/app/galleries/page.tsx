@@ -90,8 +90,8 @@ export default function AllGalleriesPage() {
     {gallery.name}
   </h2>
 </div>
-<div className="relative aspect-[4/3] overflow-hidden bg-[#D8D0C8]">
-                {gallery.coverImage && (
+<div className="relative aspect-[3/4] overflow-hidden bg-[#D8D0C8]">               
+  {gallery.coverImage && (
                   <Image
                     src={gallery.coverImage}
                     alt={gallery.name}

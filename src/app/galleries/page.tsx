@@ -90,14 +90,14 @@ export default function AllGalleriesPage() {
     {gallery.name}
   </h2>
 </div>
-              <div className="relative aspect-[4/3] overflow-hidden bg-[#D8D0C8]">
+<div className="relative aspect-[4/3] overflow-hidden bg-[#D8D0C8]">
                 {gallery.coverImage && (
                   <Image
                     src={gallery.coverImage}
                     alt={gallery.name}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
-              className={gallery.slug === "diffusion" ? "object-contain" : "object-cover"}
+            className="object-contain"
                   />
                 )}
               </div>

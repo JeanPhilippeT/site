@@ -74,8 +74,8 @@ export default function AllGalleriesPage() {
       </header>
 
       {/* COLLECTIONS */}
-      <section className="mx-auto max-w-[1700px] px-6 pb-24 pt-16 lg:px-12 lg:pt-24">
-        <h1 className="mb-16 text-center font-serif text-5xl font-normal tracking-tight md:text-7xl">
+      <section className="mx-auto max-w-[1700px] px-6 pb-24 pt-8 lg:px-12 lg:pt-10">
+        <h1 className="mb-10 text-center font-serif text-5xl font-normal tracking-tight md:text-7xl">
           Collections
         </h1>
 
@@ -85,7 +85,11 @@ export default function AllGalleriesPage() {
               key={gallery.id}
               href={`/galleries/${gallery.slug}`}
               className="group block"
-            >
+            ><div className="pb-6 text-center">
+  <h2 className="text-lg font-light uppercase tracking-[0.22em] md:text-xl">
+    {gallery.name}
+  </h2>
+</div>
               <div className="relative aspect-[4/3] overflow-hidden bg-[#D8D0C8]">
                 {gallery.coverImage && (
                   <Image
@@ -93,20 +97,8 @@ export default function AllGalleriesPage() {
                     alt={gallery.name}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                   />
                 )}
-              </div>
-
-              <div className="pt-6 text-center">
-                <h2 className="text-lg font-light uppercase tracking-[0.22em] md:text-xl">
-                  {gallery.slug === "editions"
-                    ? "ÉDITIONS"
-                    : gallery.slug === "signatures" ||
-                        gallery.slug === "signature"
-                      ? "SIGNATURES"
-                      : "COUTURE"}
-                </h2>
               </div>
             </Link>
           ))}

@@ -92,6 +92,15 @@ const coutureSubCollections: SubCollection[] = [
 
 // Main Galleries
 export const galleries: Gallery[] = [
+  
+{
+  id: 'editions',
+  name: 'ÉDITIONS',
+  slug: 'editions',
+  description: 'Des pièces en édition limitée, entre Marrakech et Paris.',
+  coverImage: '',
+  subCollections: []
+  },
   {
     id: 'diffusion',
     name: 'SIGNATURES',

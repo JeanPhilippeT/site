@@ -87,7 +87,7 @@ export default function AllGalleriesPage() {
     {gallery.name}
   </h2>
 </div>
-<div className="relative aspect-[3/2] overflow-hidden bg-[#D8D0C8]">
+<div className="relative h-[260px] w-full overflow-hidden bg-[#D8D0C8]">
   {gallery.coverImage && (
                   <Image
                     src={gallery.coverImage}

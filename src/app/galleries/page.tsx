@@ -76,7 +76,9 @@ export default function AllGalleriesPage() {
       {/* COLLECTIONS */}
 
 <section className="mx-auto max-w-[1700px] px-6 pb-8 pt-2 lg:px-12 lg:pt-2">
-<h1 className="mb-6 text-center font-serif text-4xl font-normal tracking-tight md:text-6xl">
+
+<h1 className="mb-5 text-center font-serif text-3xl font-normal tracking-tight md:text-5xl">
+
   Collections
         </h1>
 <div className="mx-auto grid w-full max-w-[950px] grid-cols-1 gap-8 md:grid-cols-3 lg:gap-10">
@@ -93,7 +95,9 @@ export default function AllGalleriesPage() {
   </h2>
 </div>
 
-<div className="relative h-[400px] w-full overflow-hidden bg-[#D8D0C8]">
+
+<div className="relative h-[400px] w-full overflow-hidden border-[8px] border-[#D8D0C8] bg-[#D8D0C8]">
+
   {gallery.coverImage && (
                   <Image
                     src={gallery.coverImage}

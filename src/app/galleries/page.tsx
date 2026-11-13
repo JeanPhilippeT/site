@@ -75,9 +75,11 @@ export default function AllGalleriesPage() {
 
       {/* COLLECTIONS */}
 <section className="mx-auto max-w-[1700px] px-6 pb-8 pt-6 lg:px-12 lg:pt-8">        
-<h1 className="mb-8 text-center font-serif text-5xl font-normal tracking-tight md:text-7xl">          Collections
+<h1 className="mb-8 text-center font-serif text-5xl font-normal tracking-tight md:text-7xl">         
+  Collections
         </h1>
-<div className="mx-auto grid w-full max-w-[1150px] grid-cols-1 gap-8 md:grid-cols-3 lg:gap-10">
+<div className="mx-auto grid w-full max-w-[950px] grid-cols-1 gap-8 md:grid-cols-3 lg:gap-10">
+
   {sortedGalleries.map((gallery) => (
             <Link
               key={gallery.id}
@@ -89,6 +91,7 @@ export default function AllGalleriesPage() {
     {gallery.name}
   </h2>
 </div>
+
 <div className="relative h-[260px] w-full overflow-hidden bg-[#D8D0C8]">
   {gallery.coverImage && (
                   <Image

@@ -74,8 +74,9 @@ export default function AllGalleriesPage() {
       </header>
 
       {/* COLLECTIONS */}
-<section className="mx-auto max-w-[1700px] px-6 pb-8 pt-6 lg:px-12 lg:pt-8">        
-<h1 className="mb-8 text-center font-serif text-5xl font-normal tracking-tight md:text-7xl">         
+
+<section className="mx-auto max-w-[1700px] px-6 pb-8 pt-2 lg:px-12 lg:pt-2">
+<h1 className="mb-6 text-center font-serif text-4xl font-normal tracking-tight md:text-6xl">
   Collections
         </h1>
 <div className="mx-auto grid w-full max-w-[950px] grid-cols-1 gap-8 md:grid-cols-3 lg:gap-10">

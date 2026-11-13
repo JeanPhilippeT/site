@@ -15,7 +15,8 @@ export default function AllGalleriesPage() {
     <main className="min-h-screen bg-[#EEE7DF] text-black">
       {/* EN-TÊTE */}
       <header className="relative z-50 w-full bg-[#EEE7DF]">
-        <div className="mx-auto flex max-w-[1700px] flex-wrap items-center justify-between gap-4 px-6 py-5 lg:px-12">
+
+<div className="mx-auto flex max-w-[1700px] flex-wrap items-center justify-between gap-4 px-6 py-3 lg:px-12">
           <Link href="/preview" className="relative block h-16 w-28 shrink-0">
             <Image
               src="/images/logo-header-transparent.png"

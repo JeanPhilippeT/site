@@ -78,7 +78,7 @@ export default function AllGalleriesPage() {
 <h1 className="mb-8 text-center font-serif text-5xl font-normal tracking-tight md:text-7xl">         
   Collections
         </h1>
-<div className="mx-auto grid w-full max-w-[950px] grid-cols-1 gap-8 md:grid-cols-3 lg:gap-10">
+<div className="mx-auto grid w-full max-w-[1000px] grid-cols-1 gap-8 md:grid-cols-3 lg:gap-10">
 
   {sortedGalleries.map((gallery) => (
             <Link
@@ -92,7 +92,7 @@ export default function AllGalleriesPage() {
   </h2>
 </div>
 
-<div className="relative h-[450px] w-full overflow-hidden bg-[#D8D0C8]">
+<div className="relative h-[400px] w-full overflow-hidden bg-[#D8D0C8]">
   {gallery.coverImage && (
                   <Image
                     src={gallery.coverImage}

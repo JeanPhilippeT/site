@@ -33,7 +33,19 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body className={inter.className}>{children}</body>
+     
+<body className={`${inter.className} flex min-h-screen flex-col bg-[#EEE7DF]`}>
+  <div className="flex-1">
+    {children}
+  </div>
+
+  <footer className="w-full bg-[#EEE7DF] px-6 py-5 text-center">
+    <p className="text-[11px] tracking-[0.12em] text-[#77716C]">
+      © {new Date().getFullYear()} JeanPhilippe Tourigny — Tous droits réservés
+    </p>
+  </footer>
+</body>
+
     </html>
   )
 }

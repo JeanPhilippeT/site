@@ -98,7 +98,7 @@ export const galleries: Gallery[] = [
   name: 'ÉDITIONS',
   slug: 'editions',
   description: 'Des pièces en édition limitée, entre Marrakech et Paris.',
-  coverImage: '',
+  coverImage: '/images/galleries/editions/top-majorelle-cadre.jpg',
   subCollections: []
   },
   {
@@ -119,9 +119,17 @@ export const galleries: Gallery[] = [
   }
 ];
 
-// Helper functions
+// Keep the two original cards and destinations on the local homepage.
+export const homeGalleries = galleries
+  .filter(gallery => gallery.slug === 'signatures' || gallery.slug === 'couture')
+  .map(gallery => gallery.slug === 'signatures'
+    ? { ...gallery, id: 'diffusion', slug: 'diffusion', name: 'DIFFUSION Gallery' }
+    : { ...gallery, name: 'COUTURE Gallery' });
+
+ // Helper functions
 export const getGalleryBySlug = (slug: string): Gallery | undefined => {
-  return galleries.find(gallery => gallery.slug === slug);
+  const canonicalSlug = slug === 'diffusion' ? 'signatures' : slug;
+  return galleries.find(gallery => gallery.slug === canonicalSlug);
 };
 
 export const getSubCollectionBySlug = (gallerySlug: string, subCollectionSlug: string): SubCollection | undefined => {

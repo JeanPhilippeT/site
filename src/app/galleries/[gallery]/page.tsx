@@ -29,30 +29,18 @@ const GalleryPage = ({ params }: GalleryPageProps) => {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Navigation */}
-      <nav className="fixed top-0 w-full z-40 bg-black/90 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
-            <Link href="/" className="flex-shrink-0">
-              <img 
-                src="/images/logo.webp" 
-                alt="Jean Philippe Tourigny Logo" 
-                className="h-16 md:h-20 w-auto"
-              />
-            </Link>
-            <Link 
-              href="/galleries" 
-              className="flex items-center space-x-2 text-sm font-light tracking-wide hover:text-gray-300 transition-colors"
-            >
-              <ArrowLeft size={16} />
-              <span>RETOUR AUX GALERIES</span>
-            </Link>
-          </div>
-        </div>
-      </nav>
+      <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+        <Link
+          href="/galleries"
+          className="inline-flex items-center space-x-2 text-sm font-light tracking-wide hover:text-gray-300 transition-colors"
+        >
+          <ArrowLeft size={16} />
+          <span>RETOUR AUX GALERIES</span>
+        </Link>
+      </div>
 
       {/* Gallery Header */}
-      <section className="pt-24 pb-16 bg-zinc-900">
+      <section className="pt-8 pb-16 bg-zinc-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-thin tracking-widest mb-4">

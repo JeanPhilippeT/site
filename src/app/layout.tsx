@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import SiteHeader from './site-header'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -35,12 +36,13 @@ export default function RootLayout({
       </head>
      
 <body className={`${inter.className} flex min-h-screen flex-col bg-[#EEE7DF]`}>
+  <SiteHeader />
   <div className="flex-1">
     {children}
   </div>
 
  
-<footer className="w-full bg-[#EEE7DF] px-6 pt-1 pb-3 text-center">
+<footer className="w-full bg-[#EEE7DF] px-6 pt-1 pb-3 text-center [div:has(footer)+&]:hidden">
     <p className="text-[11px] tracking-[0.12em] text-[#77716C]">
       © {new Date().getFullYear()} JeanPhilippe Tourigny — Tous droits réservés
     </p>

@@ -35,9 +35,9 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
      
-<body className={`${inter.className} flex min-h-screen flex-col bg-[#EEE7DF]`}>
+<body className={`${inter.className} flex min-h-screen flex-col bg-[#EEE7DF] max-lg:[&:has(#preview-home)]:min-h-0`}>
   <SiteHeader />
-  <div className="flex-1">
+  <div className="flex-1 [&:has(>#preview-home)]:flex">
     {children}
   </div>
 

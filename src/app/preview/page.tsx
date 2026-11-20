@@ -1,11 +1,12 @@
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function PreviewPage() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#EEE7DF] text-black">
+    <main id="preview-home" className="flex w-full overflow-x-hidden bg-[#EEE7DF] text-black">
       {/* PAGE D'ACCUEIL */}
-      <section className="mx-auto flex min-h-[85vh] max-w-[1700px] flex-col items-center justify-start lg:justify-center px-6 pb-12 pt-4 lg:pt-12 lg:min-h-[calc(100svh-4.5rem)] lg:flex-row lg:justify-between lg:px-20">
+      <section className="mx-auto flex w-full max-w-[1700px] flex-col items-center justify-start lg:justify-center px-6 pb-12 pt-4 lg:flex-row lg:justify-between lg:px-20 lg:py-0">
         
         {/* TEXTE */}
         <div className="z-10 flex w-full flex-col items-center lg:w-[42%] lg:-translate-y-6">
@@ -36,12 +37,12 @@ export default function PreviewPage() {
           </div>
 
           {/* LIEN D'ENTRÉE */}
-          <span
-            aria-disabled="true"
+          <Link
+            href="/la-maison"
             className="relative -top-[0px] border-b border-black pb-2 text-xs uppercase tracking-[0.22em] lg:mt-16"
           >
             Découvrir la maison →
-          </span>
+          </Link>
         </div>
 
         {/* SILHOUETTE SUR ORDINATEUR */}

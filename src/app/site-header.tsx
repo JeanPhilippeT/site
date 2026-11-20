@@ -62,7 +62,7 @@ export default function SiteHeader() {
           >
             {[
               { label: "Accueil", href: "/preview" },
-              { label: "La Maison" },
+              { label: "La Maison", href: "/la-maison" },
               { label: "Collections", href: "/galleries" },
               { label: "Journal" },
               { label: "Sur-mesure" },

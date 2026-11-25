@@ -27,7 +27,7 @@ export default function PreviewPage() {
           {/* SILHOUETTE SUR TÉLÉPHONE */}
          <div className="relative mt-8 mb-0 h-[220px] w-full max-w-[430px] sm:h-[345px] lg:hidden -translate-y-[15px]">
             <Image
-              src="/images/image-caftan-noir-page1.png"
+              src="/images/accueil/image-caftan-noir-page1.png"
               alt="Caftan noir JeanPhilippe Tourigny"
               fill
               priority
@@ -48,7 +48,7 @@ export default function PreviewPage() {
         {/* SILHOUETTE SUR ORDINATEUR */}
         <div className="relative hidden h-[min(75vh,820px)] w-[56%] lg:block">
           <Image
-            src="/images/image-caftan-noir-page1.png"
+            src="/images/accueil/image-caftan-noir-page1.png"
             alt="Caftan noir JeanPhilippe Tourigny"
             fill
             priority

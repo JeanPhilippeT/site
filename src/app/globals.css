@@ -71,3 +71,27 @@ body {
 .luxury-button:hover::before {
   left: 100%;
 }
+
+/* Continue the homepage's vertical panels behind the header and footer. */
+body:has(#preview-home) {
+  background-image: linear-gradient(
+    90deg,
+    #f9efe8 0%,
+    #f9efe8 14.23%,
+    #f3e5da 14.23%,
+    #f3e6da 25.6%,
+    #f9efe8 25.6%,
+    #f8eee8 65.67%,
+    #f5e9e0 65.67%,
+    #f5eae1 73.3%,
+    #efdece 73.3%,
+    #ead7c4 93.43%,
+    #e2cab3 93.43%,
+    #e2cab4 100%
+  );
+}
+
+body:has(#preview-home) > :is(header, footer),
+#preview-home {
+  background-color: transparent;
+}

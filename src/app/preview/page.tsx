@@ -10,7 +10,7 @@ export default function PreviewPage() {
         
         {/* TEXTE */}
         <div className="z-10 flex w-full flex-col items-center lg:w-[42%] lg:-translate-y-6">
-          <h1 className="text-center font-serif text-[clamp(1.75rem,7.5vw,4rem)] leading-[0.98] tracking-tight lg:text-[clamp(3rem,4vw,4.4rem)]">
+          <h1 className="relative -top-3 text-center font-serif text-[clamp(1.25rem,5.25vw,2.875rem)] leading-[0.98] tracking-tight lg:text-[clamp(2rem,2.75vw,3.125rem)]">
             Entre
             <br />
             Marrakech
@@ -32,14 +32,14 @@ export default function PreviewPage() {
               fill
               priority
               sizes="(max-width: 640px) 100vw, 430px"
-              className="object-contain"
+              className="object-contain -translate-y-6 scale-110"
             />
           </div>
 
           {/* LIEN D'ENTRÉE */}
           <Link
             href="/la-maison"
-            className="relative -top-[0px] border-b border-black pb-2 text-xs uppercase tracking-[0.22em] lg:mt-16"
+            className="relative -top-[15px] border-b border-black pb-2 text-xs uppercase tracking-[0.22em] lg:mt-16"
           >
             Découvrir la maison →
           </Link>
@@ -53,7 +53,7 @@ export default function PreviewPage() {
             fill
             priority
             sizes="56vw"
-            className="object-contain object-right"
+            className="object-contain object-right origin-right -translate-y-6 scale-110"
           />
         </div>
       </section>

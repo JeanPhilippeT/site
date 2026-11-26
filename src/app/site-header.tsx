@@ -58,7 +58,7 @@ export default function SiteHeader() {
         >
           <nav
             aria-label="Navigation principale"
-            className="flex flex-col items-center text-[11px] uppercase tracking-[0.2em] lg:flex-row lg:gap-x-4 lg:whitespace-nowrap xl:gap-x-7"
+            className="flex flex-col items-center text-[11px] font-medium uppercase tracking-[0.2em] lg:flex-row lg:gap-x-4 lg:whitespace-nowrap xl:gap-x-7"
           >
             {[
               { label: "Accueil", href: "/preview" },

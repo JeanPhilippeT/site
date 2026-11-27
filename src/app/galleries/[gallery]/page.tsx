@@ -10,12 +10,16 @@ export default function GalleryPage({ params }: { params: { gallery: string } })
 
   if (!gallery) notFound();
 
+  const isCouture = gallery.slug === "couture";
+
   return (
     <main className={styles.page}>
       <div className={styles.content}>
-        <Link href="/galleries" className={styles.navigation}>
-          <span aria-hidden="true">←</span> Toutes les collections
-        </Link>
+        {!isCouture && (
+          <Link href="/galleries" className={styles.navigation}>
+            <span aria-hidden="true">←</span> Toutes les collections
+          </Link>
+        )}
         <h1 className={`${heading.title} ${styles.title}`}>{gallery.name}</h1>
         <p className={styles.intro}>{gallery.description}</p>
 
@@ -54,14 +58,25 @@ export default function GalleryPage({ params }: { params: { gallery: string } })
           </ul>
         )}
 
-        <nav className={styles.related} aria-label="Autres galeries">
-          <h2>Découvrir aussi</h2>
-          {galleries.filter((item) => item.id !== gallery.id).map((item) => (
-            <Link key={item.id} href={`/galleries/${item.slug}`} className={styles.navigation}>
-              {item.name} <span aria-hidden="true">→</span>
+        {isCouture ? (
+          <nav className={styles.coutureLinks} aria-label="Poursuivre la visite">
+            <Link href="/sur-mesure" className={styles.navigation}>
+              Imaginer votre création sur mesure <span aria-hidden="true">→</span>
             </Link>
-          ))}
-        </nav>
+            <Link href="/galleries" className={styles.navigation}>
+              <span aria-hidden="true">←</span> Retour vers toutes les collections
+            </Link>
+          </nav>
+        ) : (
+          <nav className={styles.related} aria-label="Autres galeries">
+            <h2>Découvrir aussi</h2>
+            {galleries.filter((item) => item.id !== gallery.id).map((item) => (
+              <Link key={item.id} href={`/galleries/${item.slug}`} className={styles.navigation}>
+                {item.name} <span aria-hidden="true">→</span>
+              </Link>
+            ))}
+          </nav>
+        )}
       </div>
     </main>
   );

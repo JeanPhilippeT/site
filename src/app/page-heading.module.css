@@ -1,7 +1,7 @@
 .title {
   color: #171310;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: calc(clamp(2rem, 5.55vw, 6rem) * var(--heading-scale, 1));
+  font-size: min(calc(clamp(2rem, 5.55vw, 6rem) * var(--heading-scale, 1)), var(--heading-max, 6rem));
   font-weight: var(--heading-weight, 500);
   letter-spacing: 0.04em;
   line-height: 1.1;

@@ -91,8 +91,8 @@ export default function LaMaisonPage() {
           </div>
 
           <Image
-            src="/images/la-maison/collage-inspirations-v2.png"
-            alt="Collage d’inspirations : burnous, vers manuscrits de Baudelaire, fleur et tableau bleu"
+            src="/images/la-maison/collage-inspirations-sans-feuille.png"
+            alt="Collage d’inspirations : burnous, vers manuscrits de Baudelaire et tableau bleu"
             width={516}
             height={846}
             sizes="(min-width: 1440px) 650px, (min-width: 1024px) 50vw, (min-width: 640px) calc(100vw - 80px), calc(100vw - 48px)"

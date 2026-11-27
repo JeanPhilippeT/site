@@ -39,7 +39,7 @@ export default function PreviewPage() {
           {/* LIEN D'ENTRÉE */}
           <Link
             href="/la-maison"
-            className="relative -top-1 border-b border-black pb-2 text-[13px] font-medium uppercase tracking-[0.22em] lg:mt-[4.5rem]"
+            className="relative -top-1 border-b border-black pb-2 text-sm font-medium uppercase tracking-[0.22em] lg:mt-[4.5rem]"
           >
             Découvrir la maison →
           </Link>

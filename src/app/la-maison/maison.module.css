@@ -6,6 +6,7 @@
   --heading-max: 4.5rem;
   --heading-scale: 0.92;
   --heading-weight: 400;
+  --heading-tracking: 0.06em;
 }
 
 .subtitle {

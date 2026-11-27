@@ -1,0 +1,104 @@
+.page {
+  color: #171310;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: linear-gradient(115deg,
+    #e9d9c2 0% 12%,
+    #f5eae0 12% 48%,
+    #e9d8c9 48% 68%,
+    #ceb49c 68% 84%,
+    #e9d9c2 84%);
+}
+
+.content {
+  max-width: 1450px;
+  margin-inline: auto;
+  padding: clamp(1.5rem, 4vw, 4rem) 7.5% clamp(2.5rem, 5vw, 5rem);
+}
+
+.title {
+  margin-top: 1.6rem;
+  --heading-weight: 400;
+  --heading-max: 4.5rem;
+}
+
+.intro {
+  margin: 0.8rem 0 2rem;
+  max-width: 42rem;
+  line-height: 1.6;
+}
+
+.navigation {
+  display: inline-block;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid currentColor;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.feature {
+  max-width: 430px;
+}
+
+.feature img,
+.card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 428 / 548;
+  height: auto;
+  object-fit: cover;
+}
+
+.feature figcaption,
+.card h2,
+.related h2 {
+  margin-top: 1rem;
+  font-family: Baskerville, "Baskerville Old Face", Georgia, serif;
+  font-size: 1.85rem;
+  line-height: 1.2;
+}
+
+.grid {
+  display: grid;
+  gap: 2.25rem;
+}
+
+.card {
+  display: block;
+}
+
+.card p {
+  margin: 0.5rem 0 1rem;
+  line-height: 1.55;
+}
+
+.related {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  margin-top: 2.5rem;
+}
+
+.related h2 {
+  width: 100%;
+  margin-top: 0;
+}
+
+.page a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

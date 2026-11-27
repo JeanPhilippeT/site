@@ -2,6 +2,11 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.title {
+  --heading-scale: 0.92;
+  --heading-weight: 400;
+}
+
 .subtitle {
   font-family: Baskerville, "Baskerville Old Face", Georgia, serif;
   font-size: clamp(1.9rem, 2.6vw, 2.5rem);

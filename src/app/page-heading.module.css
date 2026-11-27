@@ -1,4 +1,5 @@
 .title {
+  color: #171310;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: clamp(2rem, 5.55vw, 6rem);
   font-weight: 500;

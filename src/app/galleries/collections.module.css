@@ -1,40 +1,103 @@
+.page {
+  background: #efe4d9;
+  color: #171310;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content {
+  max-width: 1900px;
+  margin-inline: auto;
+  padding: 2rem 5% 2.5rem;
+}
+
 .title {
-  margin-bottom: 22px;
-  font-size: 32px;
+  margin-bottom: 1.75rem;
+  font-size: clamp(2rem, 5.55vw, 6rem);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+  text-transform: uppercase;
 }
 
-.galleryTitle {
-  margin-bottom: 14px;
-  font-size: 17px;
-  line-height: 1.75rem;
+.grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 400px;
+  margin-inline: auto;
 }
 
-/* Bridge the phone sizes to the existing tablet scale. */
-@media (min-width: 640px) {
-  .title {
-    margin-bottom: 1.5rem;
-    font-size: clamp(32px, calc(12px + 3.125vw), 2.25rem);
-  }
+.card {
+  display: block;
+  text-align: center;
+}
 
-  .galleryTitle {
-    margin-bottom: 1rem;
-    font-size: clamp(17px, calc(12px + 0.78125vw), 1.125rem);
-  }
+.card:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.cover {
+  width: 100%;
+  aspect-ratio: 428 / 548;
+  object-fit: cover;
+}
+
+.caption {
+  display: block;
+  padding-top: 1.3rem;
+}
+
+.label {
+  display: inline-block;
+  padding-bottom: 0.45em;
+  border-bottom: 1px solid currentColor;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.card:hover .label {
+  border-bottom-width: 2px;
+  padding-bottom: calc(0.45em - 1px);
 }
 
 @media (min-width: 768px) {
+  .page {
+    background:
+      url("/images/galleries/overview/lettrage.png") left top / 5.24% 100% no-repeat,
+      linear-gradient(to right,
+        #9a856e 5.24%, #f3e7d9 5.24% 22.3%,
+        #e9d9c2 22.3% 31.75%, #eee3da 31.75% 55.47%,
+        #cdb298 55.47% 71.08%, #406280 71.08% 94.26%,
+        #9a856e 94.26%);
+  }
+
+  .content {
+    padding: 4.1vw 9.4% 2.8vw;
+  }
+
   .title {
-    margin-bottom: 1.25rem;
-    font-size: clamp(2.25rem, 5vw, 2.75rem);
+    margin-bottom: 2.75vw;
   }
 
-  .galleryTitle {
-    font-size: 1.125rem;
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2vw;
+    max-width: none;
   }
-}
 
-@media (min-width: 1024px) {
-  .galleryTitle {
-    font-size: 1.25rem;
+  .caption {
+    padding-top: 2.3vw;
+  }
+
+  .label {
+    font-size: clamp(0.56rem, 1.08vw, 1.16rem);
+    white-space: nowrap;
+  }
+
+  .card:last-child .caption {
+    padding-left: 19%;
+    color: #fff;
   }
 }

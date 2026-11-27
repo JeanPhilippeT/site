@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import styles from "./maison.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { existsSync } from "node:fs";
@@ -24,7 +25,7 @@ export default function LaMaisonPage() {
   const hasDrawingVideo = existsSync(join(process.cwd(), "public", drawingVideo));
 
   return (
-    <main className="text-black">
+    <main className={`${styles.page} text-black`}>
       <div className="relative aspect-[3/1] w-full overflow-hidden bg-[#EEE7DF] lg:aspect-[4/1]">
         <Image
           src="/images/la-maison/dessin-marrakech-paris-panorama.png"
@@ -45,19 +46,16 @@ export default function LaMaisonPage() {
       <div className="mx-auto max-w-[1440px] px-6 pb-20 pt-12 sm:px-10 lg:px-16 lg:pb-32 lg:pt-20">
         <section aria-labelledby="maison-title" className="relative grid items-start gap-8 lg:grid-cols-12 lg:gap-10">
           <div className="relative z-10 -mt-4 lg:col-span-5 lg:-mt-10">
-            <h1 id="maison-title" className="relative left-[calc(26.3vw-1.5rem)] w-max -translate-x-1/2 whitespace-nowrap font-serif text-[clamp(2.5rem,5vw,4.5rem)] leading-[0.95] tracking-tight sm:left-[calc(26.3vw-2.5rem)] lg:left-[calc(32.2vw-max(4rem,(100vw-1440px)/2+4rem))]">
+            <h1 id="maison-title" className={`${styles.title} relative lg:left-[calc(32.2vw-max(4rem,(100vw-1440px)/2+4rem))] lg:w-max lg:-translate-x-1/2`}>
               La Maison
             </h1>
           </div>
 
           <div className="lg:absolute lg:right-[calc((100%-40px)*7/18+1.5rem)] lg:top-[16%] lg:w-[min(24rem,45%)] lg:text-right">
-            <h2 className="font-serif text-3xl tracking-tight sm:text-4xl">La présence</h2>
-            <p className="mt-4 text-sm leading-relaxed sm:text-base">
-              L’assurance, l’élégance,
-              <br />
-              L’allure et le bien-être
-              <br />
-              Apparaître sans se dévoiler.
+            <h2 className={styles.subtitle}>La présence</h2>
+            <p className={`${styles.presence} mt-4 text-sm leading-relaxed sm:text-base`}>
+              <span>L’assurance, l’élégance, l’allure, la sensation,</span>
+              <span>apparaître sans se dévoiler.</span>
             </p>
           </div>
 
@@ -75,7 +73,7 @@ export default function LaMaisonPage() {
 
         <div className="mt-2 grid gap-8 lg:mt-[calc((100%*7/18-100px/9)*-0.62477718)] lg:grid-cols-12 lg:gap-10">
           <div className="mt-4 lg:order-2 lg:col-span-5 lg:col-start-8 lg:mt-0 lg:translate-y-12 lg:self-center">
-            <h2 className="font-serif text-3xl tracking-tight sm:text-4xl">Quelques inspirations</h2>
+            <h2 className={styles.subtitle}>Quelques inspirations</h2>
             <div className="mt-5 space-y-5 text-sm leading-relaxed sm:text-base">
               <p>
                 La rencontre de la couture parisienne et de la culture marocaine
@@ -103,7 +101,7 @@ export default function LaMaisonPage() {
 
         <section aria-labelledby="maison-creation" className="mt-12 grid gap-7 lg:mt-[calc(4rem-clamp(8rem,16vw,14rem))] lg:grid-cols-12 lg:gap-10">
           <div className="lg:col-span-5 lg:mt-[calc(clamp(8rem,16vw,14rem)+2rem)] lg:translate-x-[calc((100%+40px)*7/25+0.5rem)] lg:text-right">
-            <h2 id="maison-creation" className="font-serif text-3xl tracking-tight sm:text-4xl">La création</h2>
+            <h2 id="maison-creation" className={styles.subtitle}>La création</h2>
             <p className="mt-4 text-sm leading-relaxed sm:text-base">
               La page blanche. Le premier trait.
               <br />
@@ -131,7 +129,7 @@ export default function LaMaisonPage() {
 
         <section aria-labelledby="maison-moulage" className="mt-20 grid items-center gap-7 lg:mt-36 lg:grid-cols-12 lg:gap-10">
           <div className="lg:order-2 lg:col-span-4 lg:col-start-7">
-            <h2 id="maison-moulage" className="font-serif text-3xl tracking-tight sm:text-4xl">Le geste couture</h2>
+            <h2 id="maison-moulage" className={styles.subtitle}>Le geste couture</h2>
             <p className="mt-3 max-w-xs text-sm leading-relaxed sm:text-base">
               Avec la toile, la création prend forme
             </p>
@@ -146,7 +144,7 @@ export default function LaMaisonPage() {
         <div className="mt-16 flex justify-center lg:mt-20">
           <Link
             href="/galleries"
-            className="border-b border-black pb-2 text-xs uppercase tracking-[0.22em]"
+            className={styles.cta}
           >
             Découvrir les collections →
           </Link>

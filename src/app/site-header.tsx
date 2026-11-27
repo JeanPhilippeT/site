@@ -64,10 +64,10 @@ export default function SiteHeader() {
               { label: "Accueil", href: "/preview" },
               { label: "La Maison", href: "/la-maison" },
               { label: "Collections", href: "/galleries" },
-              { label: "Journal" },
-              { label: "Sur-mesure" },
-              { label: "Contact" },
-            ].map(({ label, href }) => href ? (
+              { label: "Journal", href: "/blog" },
+              { label: "Sur-mesure", href: "/sur-mesure" },
+              { label: "Contact", href: "/contact" },
+            ].map(({ label, href }) => (
               <Link
                 key={label}
                 href={href}
@@ -77,10 +77,6 @@ export default function SiteHeader() {
               >
                 {label}
               </Link>
-            ) : (
-              <span key={label} aria-disabled="true" className="py-3 lg:py-0">
-                {label}
-              </span>
             ))}
           </nav>
           <div className="flex items-center justify-center gap-5 lg:justify-self-end [&>a]:shrink-0">

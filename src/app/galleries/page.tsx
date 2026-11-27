@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import heading from "../page-heading.module.css";
 import styles from "./collections.module.css";
 
 const collections = [
@@ -12,7 +13,7 @@ export default function AllGalleriesPage() {
   return (
     <main className={styles.page}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Collections</h1>
+        <h1 className={`${heading.title} ${styles.title}`}>Collections</h1>
         <div className={styles.grid}>
           {collections.map(({ slug, label, width }) => (
             <Link key={slug} href={`/galleries/${slug}`} className={styles.card}>

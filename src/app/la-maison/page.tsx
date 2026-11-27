@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import heading from "../page-heading.module.css";
 import styles from "./maison.module.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -46,7 +47,7 @@ export default function LaMaisonPage() {
       <div className="mx-auto max-w-[1440px] px-6 pb-20 pt-12 sm:px-10 lg:px-16 lg:pb-32 lg:pt-20">
         <section aria-labelledby="maison-title" className="relative grid items-start gap-8 lg:grid-cols-12 lg:gap-10">
           <div className="relative z-10 -mt-4 lg:col-span-5 lg:-mt-10">
-            <h1 id="maison-title" className={`${styles.title} relative lg:left-[calc(32.2vw-max(4rem,(100vw-1440px)/2+4rem))] lg:w-max lg:-translate-x-1/2`}>
+            <h1 id="maison-title" className={`${heading.title} relative lg:left-[calc(32.2vw-max(4rem,(100vw-1440px)/2+4rem))] lg:w-max lg:-translate-x-1/2`}>
               La Maison
             </h1>
           </div>

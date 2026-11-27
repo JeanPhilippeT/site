@@ -26,7 +26,7 @@ export default function LaMaisonPage() {
   const hasDrawingVideo = existsSync(join(process.cwd(), "public", drawingVideo));
 
   return (
-    <main className={`${styles.page} text-black`}>
+    <main id="maison-page" className={`${styles.page} text-black`}>
       <div className="relative aspect-[3/1] w-full overflow-hidden bg-[#EEE7DF] lg:aspect-[4/1]">
         <Image
           src="/images/la-maison/dessin-marrakech-paris-panorama.png"
